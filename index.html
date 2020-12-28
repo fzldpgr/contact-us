@@ -19,10 +19,26 @@
 
                     <form method="POST" action="#" class="contact-form">
 
-                        <div class="row input__name">
+                        <div class="row form__name">
                             <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
 
                             <input type="text" name="l-name" id="l-name" placeholder="Last Name" required>
+                        </div>
+
+                        <div class="row form__email">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="row form__subject">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                        </div>
+
+                        <div class="row form__textarea">
+                            <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="3" required></textarea>
+                        </div>
+
+                        <div>
+                            <input type="submit" value="Send">
                         </div>
 
                     </form>
