@@ -29,28 +29,6 @@ body
     margin: auto;
 }
 
-.shape .input__name
-{
-    display: flex;
-}
-
-input
-{
-    align-items: center;
-    margin: 10px 10px;
-}
-
-input:focus-within,
-input:hover
-{
-    box-shadow: 1px 1px 10px 1px #dcdcdc;
-}
-
-::placeholder 
-{
-    color: rgb(126, 126, 126);
-}
-
 .row
 {
     max-width: 675px;
@@ -141,4 +119,25 @@ input[type=checkbox]
 *:focus
 {
     outline: none;
+}
+
+.shape .input__name
+{
+    display: flex;
+}
+
+.input__name input
+{
+    margin: 10px 10px;
+}
+
+input:focus-within,
+input:hover
+{
+    box-shadow: 1px 1px 10px 1px #dcdcdc;
+}
+
+::placeholder
+{
+    color: rgb(126, 126, 126);
 }
