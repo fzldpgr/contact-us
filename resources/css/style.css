@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(71, 71, 71);
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.shape
+{
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+
+.shape .input__name
+{
+    display: flex;
+}
+
+input
+{
+    align-items: center;
+    margin: 10px 10px;
+}
+
+input:focus-within,
+input:hover
+{
+    box-shadow: 1px 1px 10px 1px #dcdcdc;
+}
+
+::placeholder 
+{
+    color: rgb(126, 126, 126);
+}
+
+.row
+{
+    max-width: 675px;
+    margin: 0 auto 0 auto;
+}
+
+p
+{
+    text-align: center;
+}
+
+h1, h2, h3
+{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1
+{
+    display: block;
+    margin: 50px auto 30px auto;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2
+{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after
+{
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3
+{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/*--FORM--*/
+
+.contact-form
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type=submit]
+{
+    cursor: pointer;
+}
+
+textarea
+{
+    height: 100px;
+}
+
+input[type=checkbox]
+{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus
+{
+    outline: none;
+}
